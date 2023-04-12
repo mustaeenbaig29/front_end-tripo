@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg_img{
+    background-image: url(https://i.ibb.co/VDNwy2f/Whats-App-Image-2023-04-08-at-14-52-08-1579x888.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.logo img{
+    width: 6%;
+    position: relative;
+    left: 5%;
+}
+
+.questions{
+    height: 99vh;
+    width: 40%;
+    margin-top: -6%;
+    margin-left: 30%;
+    background-color: white;
+}
+
+.questions_content{
+    height: 50vh;
+    width: 80%;
+    position: relative;
+    top: 30%;
+    left: 10%;
+}
+
+.options{
+    position: relative;
+    top: 8%;
+    color: white;
+}
+
+.options span{
+    position: relative;
+    left: 5%;
+}
+
+#selected{
+    background-color: #b27735;
+}
+
+.options_con{
+    height: 4vh;
+    margin-top: 3%;
+    background-color: #717A6A;
+}
+
+.nxt{
+    position: relative;
+    top: -44%;
+    left: 90%;
+}
+
+.span{
+    width: 100%;
+}
+
+@media screen and (max-width: 984px){
+    .nxt{
+        left: 87%;
+    }    
+
+    .logo img{
+        width: 8%;
+    }
+
+    .questions{
+        margin-top: -8.30%;
+    }
+}
+
+@media screen and (max-width: 654px){
+    .logo img{
+        width: 12%;
+    }
+
+    .questions{
+        /* width: 50%; */
+        margin-top: -12.30%;
+    }
+}
+
+@media screen and (max-width: 509px){
+    .questions{
+        width: 60%;
+        margin-top: -14.30%;
+        margin-left: 23%;
+    }    
+
+    .logo img{
+        width: 14%;
+    }
+}
